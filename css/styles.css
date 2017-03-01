@@ -1,0 +1,50 @@
+.page-container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60vw;
+  /*background-color: green;*/
+}
+
+
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.header {
+  font-family: 'Oxygen';
+  font-size: 50px;
+  margin: 0;
+}
+
+.subheader {
+  font-family: 'Source Sans Pro';
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.effect {
+  height: 400px;
+  width: 350px;
+  background-color: white;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.effect-name {
+  display: none;
+  text-align: center;
+}
+
+.effect:hover .effect-name {
+  display: block;
+}
