@@ -18,14 +18,13 @@ $(() => {
   particlesJS('particles', {
     "particles": {
       "number": {
-        "value": 600,
+        "value": 1000,
         "density": {
           "enable": true,
           "value_area": 1578.2952832645453
         }
       },
       "color": {
-        // "value": "#422FB1"
         "value": "#fff"
       },
       "shape": {
@@ -37,11 +36,6 @@ $(() => {
         "polygon": {
           "nb_sides": 5
         },
-        "image": {
-          "src": "img/github.svg",
-          "width": 100,
-          "height": 100
-        }
       },
       "opacity": {
         "value": 1,
@@ -64,11 +58,11 @@ $(() => {
         }
       },
       "line_linked": {
-        "enable": false,
-        "distance": 150,
+        "enable": true,
+        "distance": 40,
         "color": "#ffffff",
-        "opacity": 0.4,
-        "width": 1
+        "opacity": 0.8,
+        "width": .5
       },
       "move": {
         "enable": true,

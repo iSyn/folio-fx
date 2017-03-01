@@ -34,12 +34,12 @@ header {
 }
 
 .main {
-  height: 200vh;
+  height: 100vh;
   margin: 0 auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   align-content: center;
    overflow: hidden;
