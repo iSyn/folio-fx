@@ -138,4 +138,11 @@ footer {
   text-align: center;
 }
 
+@media (max-width: 1000px) {
+  .main {
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
