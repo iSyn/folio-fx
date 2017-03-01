@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .page-container {
   position: absolute;
   left: 50%;
@@ -5,7 +10,6 @@
   width: 60vw;
   /*background-color: green;*/
 }
-
 
 header {
   text-align: center;
@@ -24,27 +28,86 @@ header {
 }
 
 .main {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  height: 200vh;
 
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .effect {
+  position: relative;
   height: 400px;
   width: 350px;
   background-color: white;
-  border: 1px solid black;
+  border: 2px solid black;
   margin: 5px;
+  border-radius: 10px;
 }
 
-.effect-name {
+#typed {
+  height: 300px;
+}
+
+.effect:hover .effect-cover {
+  display: block;
+}
+
+.effect-cover {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
   display: none;
+  text-align: center;
+  animation: fadeIn 0.3s;
+}
+
+.effect-cover h1 {
+  font-size: 40px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.typed-example {
+  display: inline-block;
+  font-family: 'Open Sans';
+  font-size: 25px;
+  margin: 10px 10px;
+}
+
+.typed-cursor{
+    font-size: 25px;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    margin-left: -10px;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+footer {
   text-align: center;
 }
 
-.effect:hover .effect-name {
-  display: block;
-}
+
