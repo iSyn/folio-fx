@@ -40,10 +40,10 @@ header {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: flex-start;
-  /*justify-content: center;*/
   align-items: flex-start;
   align-content: center;
-  /*align-content: flex-start;*/
+
+   overflow: hidden;
 }
 
 .effect {
@@ -109,7 +109,6 @@ header {
     animation: blink 0.7s infinite;
     margin-left: -10px;
 }
-
 
 @keyframes blink{
     0% { opacity:1; }
