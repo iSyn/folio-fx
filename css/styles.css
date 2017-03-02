@@ -22,6 +22,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   width: 80vw;
+  height: 100vh;
   /*background-color: green;*/
 }
 
@@ -42,15 +43,15 @@ header {
 }
 
 .main {
-  height: 100vh;
-  margin: 0 auto;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  /*flex-shrink: 0;*/
+
   justify-content: flex-start;
-  align-items: flex-start;
-  align-content: center;
-   overflow: hidden;
+  align-content: flex-start;
+  /*align-items: flex-start;*/
 }
 
 .effect {
@@ -91,6 +92,7 @@ header {
   padding: 20px;
   animation: fadeIn 0.3s;
   border-radius: 10px;
+  z-index: 1;
 }
 
 .effect-cover h1 {
@@ -118,6 +120,24 @@ header {
     margin-left: -10px;
 }
 
+.baffle {
+  width: 100%;
+  position: absolute;
+  font-size: 60px;
+  font-family: 'Amiko';
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+#baffle {
+  position: relative;
+  line-height: 10;
+  text-align: center;
+  height: 200px;
+}
+
 @keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }
@@ -136,13 +156,5 @@ header {
 
 footer {
   text-align: center;
-}
-
-@media (max-width: 1000px) {
-  .main {
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-  }
 }
 

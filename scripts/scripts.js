@@ -1,6 +1,22 @@
 $(() => {
   console.log('scripts.js connected')
 
+  // Baffle.JS
+  let b = baffle('.baffle')
+  b.set({
+    characters: '~!@#$%^&*-+=',
+    speed: 50
+  })
+  b.start()
+  setInterval(() => {
+    b.reveal(1000)
+    setTimeout(() => {
+      b.start()
+    },1000)
+  }, 2000)
+
+
+  // Typed.JS
   $(".typed-example").typed({
       strings: [
         "Wow, what a useful website",
@@ -15,6 +31,7 @@ $(() => {
       loop: true
   });
 
+  // Particles.JS
   particlesJS('particles', {
     "particles": {
       "number": {
