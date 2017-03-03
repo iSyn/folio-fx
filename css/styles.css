@@ -53,16 +53,16 @@ section {
   /*background-color: blue;*/
 }
 
-/* Typed JS*/
+
 .effect {
   position: relative;
   height: 400px;
-  width: 99%;
+  width: 98%;
   background-color: #F5F5F5;
   /*border: 2px solid black;*/
   border-radius: 10px;
   box-shadow: 0px 3px 10px #222;
-  margin: 0 auto;
+  margin: 0 auto 10px auto;
 }
 
 #typed {
@@ -112,10 +112,28 @@ section {
 }
 
 .typed-cursor{
-    font-size: 25px;
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-    margin-left: -10px;
+  font-size: 25px;
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+  margin-left: -10px;
 }
+
+.baffle {
+  position: absolute;
+  font-size: 60px;
+  font-family: 'Amiko';
+  width: 100%;
+  top: 50%;
+  text-align: center;
+  transform: translateY(-50%);
+}
+
+#baffle {
+  height: 200px;
+  background-color: #422FB1;
+  color: white;
+}
+
+
