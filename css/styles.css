@@ -109,7 +109,7 @@ section {
   display: inline-block;
   font-family: 'Open Sans';
   font-size: 25px;
-  margin: 10px 10px;
+  padding: 20px;
 }
 
 .typed-cursor{
@@ -118,7 +118,7 @@ section {
   -webkit-animation: blink 0.7s infinite;
   -moz-animation: blink 0.7s infinite;
   animation: blink 0.7s infinite;
-  margin-left: -10px;
+  margin-left: -20px;
 }
 
 @keyframes blink{
@@ -168,12 +168,17 @@ section {
 .owl-carousel, .owl-stage, .owl-stage-outer, .owl-item, .owl-single {
   height: 100%;
   font-family: 'Oxygen';
+  cursor: move;
 }
 
 .owl-stage-outer {
   border-radius: 10px;
 }
 
-.owl-single {
-  padding: 80px 0;
+.owl-single p {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
 }
