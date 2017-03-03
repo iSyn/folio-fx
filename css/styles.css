@@ -5,6 +5,10 @@
   text-decoration: none;
 }
 
+.pointer {
+  cursor: pointer !important;
+}
+
 a:visited {
   color: white;
 }
