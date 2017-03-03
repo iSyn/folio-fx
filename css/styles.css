@@ -46,9 +46,76 @@ section {
 }
 
 .left {
-  background-color: red;
+  /*background-color: red;*/
 }
 
 .right {
-  background-color: blue;
+  /*background-color: blue;*/
+}
+
+/* Typed JS*/
+.effect {
+  position: relative;
+  height: 400px;
+  width: 99%;
+  background-color: #F5F5F5;
+  /*border: 2px solid black;*/
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px #222;
+  margin: 0 auto;
+}
+
+#typed {
+  height: 200px;
+}
+
+.effect-button {
+  border: 1px solid white;
+  padding: 10px;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.effect:hover .effect-cover {
+  display: block;
+}
+
+.effect-cover {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  display: none;
+  text-align: center;
+  padding: 20px;
+  animation: fadeIn 0.3s;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.effect-cover h1 {
+  font-size: 60px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.typed-example {
+  display: inline-block;
+  font-family: 'Open Sans';
+  font-size: 25px;
+  margin: 10px 10px;
+}
+
+.typed-cursor{
+    font-size: 25px;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    margin-left: -10px;
 }
