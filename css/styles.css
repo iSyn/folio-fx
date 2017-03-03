@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 a:visited {
@@ -144,9 +145,11 @@ section {
   height: 250px;
   text-align: center;
   position: relative;
+  font-size: 30px;
+  color: white;
 }
 
 .owl-carousel, .owl-stage, .owl-stage-outer, .owl-item, .owl-single {
   height: 100%;
+  font-family: 'Oxygen';
 }
-
