@@ -153,3 +153,7 @@ section {
   height: 100%;
   font-family: 'Oxygen';
 }
+
+.owl-stage-outer {
+  border-radius: 10px;
+}
