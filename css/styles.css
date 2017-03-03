@@ -23,7 +23,7 @@ a:link {
 }
 
 body {
-  background-color: azure;
+  background-color: #c8fbff;
 }
 
 header {
@@ -85,6 +85,12 @@ section {
   display: inline-block;
   cursor: pointer;
   text-decoration: none;
+  border-radius: 5px;
+}
+
+.effect-button:hover {
+  color: #c8fbff;
+  border-color: #c8fbff;
 }
 
 .effect:hover .effect-cover {
@@ -163,7 +169,7 @@ section {
 }
 
 #particles {
-  height: 350px;
+  height: 450px;
 }
 
 #owlCarousel {
@@ -207,4 +213,25 @@ section {
   text-shadow: 4px 3px 0 #1d9d74, 9px 8px 0 rgba(0,0,0,0.15);
   top: 50%;
   transform: translateY(-50%);
+}
+
+#animate > p {
+  position: absolute;
+  font-family: 'Roboto';
+  font-weight: 100;
+  font-size: 50px;
+  color: #f35626;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#animate {
+  height: 250px;
+}
+
+footer {
+  font-family: 'Open Sans';
+  text-align: center;
 }

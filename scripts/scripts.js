@@ -27,8 +27,8 @@ $(() => {
         "Wow, what a useful website",
         "The creator of this site must be super cool",
         "This plugin looks really neat!",
-        "It's very customizable too.",
-        "You can pause ^500 . ^500 . ^500 .",
+        "It's very customizable too!",
+        "You can pause^500.^500.^500. inbetween words.",
         "It can aso fix er",
         "It can also fix errors!"
         ],
@@ -81,7 +81,7 @@ $(() => {
       },
       "line_linked": {
         "enable": true,
-        "distance": 40,
+        "distance": 20,
         "color": "#ffffff",
         "opacity": 0.8,
         "width": .5
