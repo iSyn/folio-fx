@@ -67,12 +67,12 @@ section {
 .effect {
   position: relative;
   height: 400px;
-  width: 98%;
+  width: 96.5%;
   background-color: #F5F5F5;
   /*border: 2px solid black;*/
   border-radius: 10px;
   box-shadow: 0px 3px 10px #222;
-  margin: 0 auto 2.5% auto;
+  margin: 0 auto 3.5% auto;
 }
 
 #typed {
