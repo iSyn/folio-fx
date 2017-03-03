@@ -173,3 +173,7 @@ section {
 .owl-stage-outer {
   border-radius: 10px;
 }
+
+.owl-single {
+  padding: 80px 0;
+}
