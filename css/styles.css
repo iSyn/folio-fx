@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Museo Slab';
+    src: url('./fonts/museo_slab.woff');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -143,7 +148,7 @@ section {
 
 .baffle {
   position: absolute;
-  font-size: 60px;
+  font-size: 70px;
   font-family: 'Amiko';
   width: 100%;
   top: 50%;
@@ -185,4 +190,21 @@ section {
   transform: translateY(-50%);
   width: 100%;
   text-align: center;
+}
+
+#fa {
+  height: 200px;
+}
+
+#fa > h1 {
+  /*line-height: 200px;*/
+  position: absolute;
+  font-family: 'Museo Slab';
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  text-shadow: 4px 3px 0 #1d9d74, 9px 8px 0 rgba(0,0,0,0.15);
+  top: 50%;
+  transform: translateY(-50%);
 }
