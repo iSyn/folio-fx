@@ -1,6 +1,11 @@
 $(() => {
   console.log('scripts.js connected')
 
+  // OwlCarousel.JS
+  $(".owl-carousel").owlCarousel({
+    loop: true
+  })
+
   // Baffle.JS
   let b = baffle('.baffle')
   b.set({

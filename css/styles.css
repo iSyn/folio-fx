@@ -37,12 +37,11 @@ header {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   /*background-color: green;*/
 }
 
 section {
-  height: 100vh;
   width: 33%;
 }
 
@@ -136,3 +135,18 @@ section {
   background-color: #422FB1;
   color: white;
 }
+
+#particles {
+  height: 350px;
+}
+
+#owlCarousel {
+  height: 250px;
+  text-align: center;
+  position: relative;
+}
+
+.owl-carousel, .owl-stage, .owl-stage-outer, .owl-item, .owl-single {
+  height: 100%;
+}
+
