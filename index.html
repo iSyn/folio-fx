@@ -22,6 +22,10 @@
   </head>
 
   <body>
+  <!-- Preloader -->
+<div id="preloader">
+    <div id="status">&nbsp;</div>
+</div>
 
     <div class="page-container">
 
@@ -154,6 +158,18 @@
     <script src="scripts/owl.carousel.min.js"></script>
     <script src="scripts/particles.js"></script>
     <script src="scripts/scripts.js"></script>
+
+    <!-- jQuery Plugin -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+
+    <!-- Preloader -->
+    <script type="text/javascript">
+      $(window).on('load', function() { // makes sure the whole site is loaded
+          $('#status').fadeOut(); // will first fade out the loading animation
+          $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+          $('body').delay(350).css({'overflow':'visible'});
+        })
+    </script>
 
   </body>
 
