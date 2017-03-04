@@ -215,20 +215,23 @@ section {
   transform: translateY(-50%);
 }
 
-#animate > p {
-  position: absolute;
+#animate > h1 {
+  text-align: center;
   font-family: 'Roboto';
   font-weight: 100;
+  top: 50%;
+  position: absolute;
+  width: 100%;
+  transform: translateY(-50%);
   font-size: 50px;
   color: #f35626;
-  width: 100%;
-  text-align: center;
-  top: 50%;
-  transform: translateY(-50%);
+  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #animate {
-  height: 250px;
+  height: 200px;
 }
 
 footer {

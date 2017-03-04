@@ -1,6 +1,48 @@
 $(() => {
   console.log('scripts.js connected')
 
+  // Animate.CSS
+  let currentAnimation = 10
+  let animations = [
+    'flash',
+    'pulse',
+    'rubberBand',
+    'shake',
+    'headShake',
+    'swing',
+    'tada',
+    'jello',
+    'fadeIn',
+    'fadeInUp',
+    'fadeOut',
+    'flipInX',
+    'flipInY',
+    'flipOutX',
+    'flipOutY',
+    'zoomIn',
+    'zoomInDown',
+    'zoomInRight',
+    'zoomOut',
+    'zoomOutLeft',
+    'zoomOutRight',
+    'zoomOutUp',
+  ]
+
+  setInterval(() => {
+    $('.animated').removeClass(animations[currentAnimation])
+    if (currentAnimation < animations.length-1) {
+      currentAnimation++
+      console.log(animations[currentAnimation])
+      $('.animated').addClass(animations[currentAnimation])
+    } else {
+      currentAnimation = 0
+      $('.animated').addClass(animations[currentAnimation])
+    }
+  }, 1500)
+
+  $('.animated').addClass('flash')
+
+
   // OwlCarousel.JS
   $(".owl-carousel").owlCarousel({
     loop: true
