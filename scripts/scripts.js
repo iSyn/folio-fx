@@ -1,3 +1,11 @@
+// Page is loading
+$(window).on("load", (() => {
+    'use strict';
+    $(".spinner-container").fadeOut(1000);
+    $(window).scrollTop(0);
+}));//End Loading
+
+
 $(() => {
   console.log('scripts.js connected')
 
