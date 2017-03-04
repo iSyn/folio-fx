@@ -24,7 +24,7 @@ a:link {
 
 body {
   /*background-color: #c8fbff;*/
-  background: linear-gradient(#fff, #929292);
+  /*background: linear-gradient(#fff, #929292);*/
   overflow: hidden;
 }
 
@@ -383,4 +383,18 @@ footer {
 }
 
 .wow { visibility: hidden; }
+
+#new-effect {
+  border: 5px dotted grey;
+  background-color: white;
+  color: grey;
+  height: 200px;
+}
+
+.add-new-effect-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
