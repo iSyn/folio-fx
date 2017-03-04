@@ -34,7 +34,7 @@ header {
 .header {
   font-family: 'Source Sans Pro';
   font-weight: 100;
-  font-size: 70px;
+  font-size: 100px;
   margin: 0;
   color: #f35626;
   background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
@@ -92,7 +92,7 @@ section {
 }
 
 #typed {
-  height: 200px;
+  height: 180px;
 }
 
 .effect-button {
@@ -240,15 +240,12 @@ section {
   position: absolute;
   width: 100%;
   transform: translateY(-50%);
-  font-size: 50px;
-  color: #f35626;
-  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-size: 80px;
+  color: #ff9d31;
 }
 
 #animate {
-  height: 160px;
+  height: 270px;
 }
 
 footer {

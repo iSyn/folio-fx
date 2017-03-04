@@ -2,27 +2,20 @@ $(() => {
   console.log('scripts.js connected')
 
   // Animate.CSS
-  let currentAnimation = 10
+  let currentAnimation = 0
   let animations = [
     'flash',
-    'pulse',
-    'rubberBand',
-    'shake',
+    // 'pulse',
+    // 'rubberBand',
+    // 'shake',
     'headShake',
     'swing',
-    'tada',
-    'jello',
-    'fadeIn',
-    'fadeInUp',
+    // 'fadeIn',
+    // 'fadeInUp',
     'fadeOut',
-    'flipInX',
-    'flipInY',
-    'flipOutX',
-    'flipOutY',
     'zoomIn',
     'zoomInDown',
-    'zoomOut',
-    'zoomOutUp',
+    // 'zoomOutUp',
   ]
 
   setInterval(() => {
@@ -56,22 +49,24 @@ $(() => {
     setTimeout(() => {
       b.start()
     },1000)
-  }, 2000)
+  }, 3000)
 
 
   // Typed.JS
   $(".typed-example").typed({
       strings: [
         "Wow, what a useful website",
-        "The creator of this site must be super cool",
+        // "The creator of this site must be super cool",
         "This plugin looks really neat!",
         "It's very customizable too!",
         "You can pause^500.^500.^500. inbetween words.",
         "It can aso fix er",
         "It can also fix errors!"
         ],
-      typeSpeed: 0,
-      loop: true
+      typeSpeed: 30,
+      loop: true,
+      startDelay: 2000,
+      backDelay: 1500,
   });
 
   // Particles.JS
