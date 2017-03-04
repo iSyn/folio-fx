@@ -3,6 +3,9 @@ $(window).on("load", (() => {
     'use strict';
     $(".spinner-container").fadeOut(1000);
     $(window).scrollTop(0);
+    setTimeout(() => {
+      $('body').css('overflow', 'auto')
+    }, 500)
 }));//End Loading
 
 

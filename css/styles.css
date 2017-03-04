@@ -24,6 +24,7 @@ a:link {
 
 body {
   background-color: #c8fbff;
+  overflow: hidden;
 }
 
 .spinner-container {
@@ -317,6 +318,12 @@ section {
 
 #animate {
   height: 270px;
+}
+
+.contact-container {
+  height: 50vh;
+  width: 100vw;
+  background-color: red;
 }
 
 footer {
