@@ -11,7 +11,7 @@ $(window).on("load", (() => {
 
 $(() => {
   console.log('scripts.js connected')
-
+  $(window).scrollTop(0);
   // Animate.CSS
   let currentAnimation = 0
   let animations = [
