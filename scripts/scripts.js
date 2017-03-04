@@ -21,10 +21,7 @@ $(() => {
     'flipOutY',
     'zoomIn',
     'zoomInDown',
-    'zoomInRight',
     'zoomOut',
-    'zoomOutLeft',
-    'zoomOutRight',
     'zoomOutUp',
   ]
 
@@ -32,7 +29,6 @@ $(() => {
     $('.animated').removeClass(animations[currentAnimation])
     if (currentAnimation < animations.length-1) {
       currentAnimation++
-      console.log(animations[currentAnimation])
       $('.animated').addClass(animations[currentAnimation])
     } else {
       currentAnimation = 0

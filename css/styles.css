@@ -32,9 +32,25 @@ header {
 }
 
 .header {
-  font-family: 'Oxygen';
-  font-size: 50px;
+  font-family: 'Source Sans Pro';
+  font-weight: 100;
+  font-size: 70px;
   margin: 0;
+  color: #f35626;
+  background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: change-color 10s infinite linear;
+}
+
+
+@-webkit-keyframes change-color {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
 }
 
 .subheader {
@@ -89,8 +105,10 @@ section {
 }
 
 .effect-button:hover {
-  color: #c8fbff;
-  border-color: #c8fbff;
+  color: #222;
+  border-color: #222;
+  transition-duration: 0.3s;
+  background-color: #fff;
 }
 
 .effect:hover .effect-cover {
@@ -217,8 +235,7 @@ section {
 
 #animate > h1 {
   text-align: center;
-  font-family: 'Roboto';
-  font-weight: 100;
+  font-family: 'Amiko';
   top: 50%;
   position: absolute;
   width: 100%;
@@ -231,7 +248,7 @@ section {
 }
 
 #animate {
-  height: 200px;
+  height: 160px;
 }
 
 footer {
