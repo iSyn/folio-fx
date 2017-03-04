@@ -102,6 +102,7 @@ section {
   cursor: pointer;
   text-decoration: none;
   border-radius: 5px;
+  font-family: 'Open Sans';
 }
 
 .effect-button:hover {
