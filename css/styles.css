@@ -23,7 +23,8 @@ a:link {
 }
 
 body {
-  background-color: #c8fbff;
+  /*background-color: #c8fbff;*/
+  background: linear-gradient(#fff, #929292);
   overflow: hidden;
 }
 
@@ -107,9 +108,8 @@ header {
 }
 
 .header {
-  font-family: 'Source Sans Pro';
-  font-weight: 100;
-  font-size: 100px;
+  font-family: 'Ranga';
+  font-size: 180px;
   margin: 0;
   color: #f35626;
   background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
@@ -129,7 +129,7 @@ header {
 }
 
 .subheader {
-  font-family: 'Source Sans Pro';
+  font-family: 'Open Sans';
   margin: 0;
 }
 
@@ -324,10 +324,17 @@ section {
   height: 270px;
 }
 
-.contact-container {
+.contact-wrapper {
   position: relative;
-  margin: 0 auto;
-  height: 80vh;
+  /*background-color: #fff;*/
+  height: 100vh;
+}
+
+.contact-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 60vw;
   /*background-color: red;*/
   text-align: center;
@@ -349,7 +356,6 @@ section {
   display: block;
   margin: 0 auto 20px auto;
   font-size: 20px;
-  background-color: #c8fbff;
 }
 
 textarea {
@@ -361,7 +367,6 @@ textarea {
   font-family: 'Source Sans Pro';
   line-height: 1.4;
   font-size: 20px;
-  background-color: #c8fbff;
 }
 
 form button {
@@ -370,7 +375,6 @@ form button {
   border-radius: 5px;
   width: 60%;
   border: 1px solid black;
-  background-color: #c8fbff;
 }
 
 footer {
