@@ -12,6 +12,8 @@ $(window).on("load", (() => {
 $(() => {
   console.log('scripts.js connected')
   $(window).scrollTop(0);
+  new WOW().init();
+
   // Animate.CSS
   let currentAnimation = 0
   let animations = [
@@ -30,17 +32,17 @@ $(() => {
   ]
 
   setInterval(() => {
-    $('.animated').removeClass(animations[currentAnimation])
+    $('.animateThis').removeClass(animations[currentAnimation])
     if (currentAnimation < animations.length-1) {
       currentAnimation++
-      $('.animated').addClass(animations[currentAnimation])
+      $('.animateThis').addClass(animations[currentAnimation])
     } else {
       currentAnimation = 0
-      $('.animated').addClass(animations[currentAnimation])
+      $('.animateThis').addClass(animations[currentAnimation])
     }
   }, 1500)
 
-  $('.animated').addClass('flash')
+  $('.animateThis').addClass('flash')
 
 
   // OwlCarousel.JS

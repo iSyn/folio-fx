@@ -37,7 +37,7 @@
     <div class="page-container">
 
       <header>
-        <h1 class='header'>Folio FX</h1>
+        <h1 class='header animated pulse'>Folio FX</h1>
         <!-- <h3 class='subheader'>A collection of cool effects to add to your site</h3> -->
       </header>
 
@@ -45,7 +45,7 @@
         <section class="left">
 
           <!-- Typed.JS -->
-          <div class="effect" id='typed'>
+          <div class="effect wow fadeInUp" id='typed'>
             <div class="effect-cover">
               <h1><span style='font-family:"Ubuntu"'>Typed.js</span></h1>
               <a href="http://www.mattboldt.com/demos/typed-js/" target='_blank'>
@@ -56,7 +56,7 @@
           </div>
 
           <!-- Font Awesome -->
-          <div class="effect" id='fa' style='background-color: #1ea176'>
+          <div class="effect wow fadeInUp" id='fa' style='background-color: #1ea176'>
             <!-- <h1>Font Awesome <i class='fa fa-flag 2x'></i></h1> -->
             <h1>
               <i class='fa fa-flag 2x'></i>
@@ -88,7 +88,7 @@
           </div>
 
           <!-- Baffle.JS -->
-          <div class="effect" id='baffle'>
+          <div class="effect wow fadeInUp" id='baffle'>
             <span class='baffle'>Folio FX</span>
             <div class="effect-cover">
               <h1><span style='font-family:"Amiko"'>Baffle.js</span></h1>
@@ -98,9 +98,9 @@
             </div>
           </div>
 
-
-          <div class="effect" id='animate'>
-            <h1 class='animated'>Amazing!</h1>
+          <!-- Animate.css -->
+          <div class="effect wow fadeInUp" id='animate'>
+            <h1 class='animated animateThis'>Amazing!</h1>
             <div class="effect-cover">
               <h1><span style='font-family:"Roboto"'>Animate.css</span></h1>
               <a href="https://daneden.github.io/animate.css/" target='_blank'>
@@ -114,7 +114,7 @@
         <section class="right">
 
           <!-- Particles.JS -->
-          <div class="effect" id='particles' style='background-color: #222'>
+          <div class="effect wow fadeInUp" id='particles' style='background-color: #222'>
             <div class="effect-cover">
               <h1><span style='font-family:"Slabo 27px"'>Particles.js</span></h1>
               <a href="http://vincentgarreau.com/particles.js/" target='_blank'>
@@ -124,7 +124,7 @@
           </div>
 
           <!-- OwlCarousel.JS -->
-          <div class="effect" id='owlCarousel'>
+          <div class="effect wow fadeInUp" id='owlCarousel'>
             <div class="owl-carousel">
               <div class='owl-single' style='background-color: #b1eb00'>
                 <p>Incredible!</p>
@@ -142,6 +142,7 @@
               </a>
             </div>
           </div>
+
         </section>
       </div>
 
@@ -168,6 +169,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
     <script src="scripts/typed.js"></script>
+    <script src="scripts/wow.min.js"></script>
     <script src="scripts/baffle.js"></script>
     <script src="scripts/owl.carousel.min.js"></script>
     <script src="scripts/particles.js"></script>
