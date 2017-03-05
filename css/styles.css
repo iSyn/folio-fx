@@ -340,7 +340,7 @@ section {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 60vw;
+  width: 70vw;
   /*background-color: red;*/
   text-align: center;
 }
@@ -363,8 +363,8 @@ section {
   border-left: none;
   border-right: none;
   display: block;
-  margin: 0 auto 20px auto;
-  font-size: 20px;
+  margin: 0 auto 30px auto;
+  font-size: 25px;
   background-color: rgba(0,0,0,0);
   color: black;
   outline: none;
@@ -378,7 +378,7 @@ textarea {
   border-radius: 5px;
   font-family: 'Roboto';
   line-height: 1.4;
-  font-size: 20px;
+  font-size: 25px;
   padding: 5px;
   background-color: rgba(0,0,0,0);
   color: black;
