@@ -373,7 +373,7 @@ section {
 textarea {
   width: 60%;
   display: block;
-  margin: 0 auto 20px auto;
+  margin: 0 auto 30px auto;
   border: 2px solid black;
   border-radius: 5px;
   font-family: 'Roboto';
@@ -386,8 +386,8 @@ textarea {
 }
 
 form button {
-  height: 40px;
-  font-size: 20px;
+  height: 45px;
+  font-size: 25px;
   border-radius: 5px;
   width: 60%;
   border: 2px solid black;
