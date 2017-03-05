@@ -14,6 +14,12 @@ $(() => {
   $(window).scrollTop(0);
   new WOW().init();
 
+  $("#new-effect").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".contact-wrapper").offset().top
+    }, 500);
+  });
+
   // Animate.CSS
   let currentAnimation = 0
   let animations = [

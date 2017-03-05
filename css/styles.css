@@ -109,7 +109,7 @@ header {
 
 .header {
   font-family: 'Ranga';
-  font-size: 180px;
+  font-size: 200px;
   margin: 0;
   color: #f35626;
   background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
@@ -131,6 +131,7 @@ header {
 .subheader {
   font-family: 'Open Sans';
   margin: 0;
+  z-index: 3;
 }
 
 .content-container {
@@ -367,6 +368,7 @@ textarea {
   font-family: 'Source Sans Pro';
   line-height: 1.4;
   font-size: 20px;
+  padding: 5px;
 }
 
 form button {
@@ -386,11 +388,16 @@ footer {
 .wow { visibility: hidden; }
 
 #new-effect {
-  border: 5px dotted grey;
+  border: 5px dotted #ababab;
   background-color: white;
-  color: grey;
+  color: #ababab;
   height: 200px;
   box-shadow: none;
+  cursor: pointer;
+}
+
+#new-effect:hover {
+  border: none;
 }
 
 .add-new-effect-btn {
