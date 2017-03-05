@@ -375,6 +375,7 @@ form button {
   border-radius: 5px;
   width: 60%;
   border: 1px solid black;
+  background-color: white;
 }
 
 footer {
