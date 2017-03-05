@@ -20,6 +20,12 @@ $(() => {
     }, 500);
   });
 
+  // DnD.JS
+  dragNdrop({
+    element: document.getElementById('draggable-box'),
+    constraints: document.getElementById('dragNdrop')
+  });
+
 
   // Marquee3000.JS
   Marquee3k({
