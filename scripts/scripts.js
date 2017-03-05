@@ -20,6 +20,24 @@ $(() => {
     }, 500);
   });
 
+  // Glitter.JS
+  glitter('#glitter-text', {
+    loopPeriod: 5000,        //ms between each glitter
+    maxIteration: undefined, //maximum number of glitters
+    accentTime: 100,         //time the accent class is shown
+    highlightTime: 20,        //time the highlight class is shown
+    downlightTime: 20,        //time the downlight class is shown
+    rtl: false,              //direction of the glitter
+    travelPeriod: 40,        //ms between each subsequent letter glitter
+    flipping: false          //makes half loop between default and accent
+  });
+
+  // Marquee3000.JS
+  Marquee3k({
+    randomSpeed: true // if true, each marquee will be assigned a random speed between 10-50px/sec
+  });
+
+
   // Animate.CSS
   let currentAnimation = 0
   let animations = [
