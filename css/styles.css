@@ -389,6 +389,7 @@ footer {
   background-color: white;
   color: grey;
   height: 200px;
+  box-shadow: none;
 }
 
 .add-new-effect-btn {
