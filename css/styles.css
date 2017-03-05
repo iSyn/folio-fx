@@ -28,6 +28,10 @@ body {
   overflow: hidden;
 }
 
+.page-container {
+  overflow-x: hidden;
+}
+
 .spinner-container {
   position: fixed;
   height: 100vh;
@@ -327,7 +331,7 @@ section {
 
 .contact-wrapper {
   position: relative;
-  /*background-color: #fff;*/
+  background: linear-gradient(#fff, #ab9fee, #422FB1);
   height: 100vh;
 }
 
@@ -343,46 +347,77 @@ section {
 
 .contact-container > h1 {
   padding: 20px;
-  font-family: 'Source Sans Pro';
+  font-family: 'Roboto';
   font-size: 50px;
 }
 
 .name-email-container input {
-  font-family: 'Source Sans Pro';
+  font-family: 'Roboto';
   width: 60%;
   height: 35px;
   padding: 5px;
   border-radius: 5px;
-  border: 1px solid black;
+  /*border: 3px solid #fff;*/
+  border-bottom: 3px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
   display: block;
   margin: 0 auto 20px auto;
   font-size: 20px;
+  background-color: rgba(0,0,0,0);
+  color: black;
+  outline: none;
 }
 
 textarea {
   width: 60%;
   display: block;
   margin: 0 auto 20px auto;
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 5px;
-  font-family: 'Source Sans Pro';
+  font-family: 'Roboto';
   line-height: 1.4;
   font-size: 20px;
   padding: 5px;
+  background-color: rgba(0,0,0,0);
+  color: black;
+  outline: none;
 }
 
 form button {
   height: 40px;
-  font-size: 15px;
+  font-size: 20px;
   border-radius: 5px;
   width: 60%;
-  border: 1px solid black;
-  background-color: white;
+  border: 2px solid black;
+  cursor: pointer;
+  font-family: 'Roboto';
+  background-color: rgba(0,0,0,0);
+  color: black;
 }
 
 footer {
+  height: 60px;
+  line-height: 60px;
+  background-color: #422FB1;
   font-family: 'Open Sans';
   text-align: center;
+  font-size: 15px;
+  color: white;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: black;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: black;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: black;
 }
 
 .wow { visibility: hidden; }
