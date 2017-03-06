@@ -501,14 +501,11 @@ footer {
 
 #coolors {
   height: 350px;
-}
-
-.colors-wrapper {
-  height: 350px;
+  position: relative;
 }
 
 .colors-container{
-  height: 350px;
+  height: 100%;
   display: flex;
   flex-flow: row nowrap;
 }
