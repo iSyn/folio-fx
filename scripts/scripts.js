@@ -1,7 +1,7 @@
 // Page is loading
 $(window).on("load", (() => {
     'use strict';
-    $(".spinner-container").fadeOut(1000);
+    $(".spinner-container").fadeOut(2500);
     $(window).scrollTop(0);
     setTimeout(() => {
       $('body').css('overflow', 'auto')
@@ -22,10 +22,24 @@ $(() => {
 
   // DnD.JS
   dragNdrop({
-    element: document.getElementById('draggable-box'),
+    element: document.getElementById('box1'),
     constraints: document.getElementById('dragNdrop')
   });
 
+  dragNdrop({
+    element: document.getElementById('box2'),
+    constraints: 'x'
+  });
+
+  dragNdrop({
+    element: document.getElementById('box3'),
+    constraints: 'y'
+  });
+
+  dragNdrop({
+    element: document.getElementById('box4'),
+    constraints: document.getElementById('dragNdrop')
+  });
 
   // Marquee3000.JS
   Marquee3k({

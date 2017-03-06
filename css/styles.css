@@ -332,7 +332,7 @@ section {
 
 .contact-wrapper {
   position: relative;
-  background: linear-gradient(#fff, #ab9fee, #422FB1);
+  background: linear-gradient(#fff, #cd9dd9, #dfabed);
   height: 100vh;
 }
 
@@ -447,8 +447,54 @@ footer {
   font-family: 'Open Sans';
 }
 
-#draggable-box {
-  height: 100px;
-  width: 100px;
-  background-color: red;
+#dragNdrop {
+  background-color: #41BBD9;
 }
+
+.box {
+  font-family: 'Open Sans';
+  position: relative;
+  border-radius: 10px;
+  color: white;
+  margin: 2%;
+  border: 2px solid white;
+  box-shadow: 0 3px #222;
+}
+
+.box p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+#box1 {
+  height: 100px;
+  width: 150px;
+  background-color: #E6C229;
+  font-size: 20px;
+}
+
+#box2 {
+  height: 80px;
+  font-size: 20px;
+  background-color: #D11149;
+}
+
+#box3 {
+  height: 50px;
+  width: 70%;
+  background-color: #6610F2;
+  left: 20%;
+}
+
+#box4 {
+  position: absolute;
+  height: 90px;
+  width: 180px;
+  background-color: #F17105;
+  right: 10%;
+}
+
