@@ -323,7 +323,10 @@ section {
   width: 100%;
   transform: translateY(-50%);
   font-size: 80px;
-  color: #ff9d31;
+  /*color: #ff9d31;*/
+  /*color: #5dfec3;*/
+  /*color: #1a1e3c;*/
+  color: #36c9ae;
 }
 
 #animate {
@@ -431,6 +434,10 @@ footer {
   height: 200px;
   box-shadow: none;
   cursor: pointer;
+}
+
+.new-effect-text {
+  font-family: 'Open Sans';
 }
 
 #new-effect:hover {
