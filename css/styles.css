@@ -401,7 +401,8 @@ form button {
 footer {
   height: 100px;
   line-height: 100px;
-  background-color: #422FB1;
+  /*background-color: #dfabed;*/
+  background: linear-gradient(#dfabed, #bf62d8);
   font-family: 'Roboto';
   text-align: center;
   font-size: 15px;
@@ -497,4 +498,25 @@ footer {
   background-color: #F17105;
   right: 10%;
 }
+
+#coolors {
+  height: 350px;
+}
+
+.colors-wrapper {
+  height: 350px;
+}
+
+.colors-container{
+  height: 350px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.color {
+  height: 100%;
+  width: 20%;
+}
+
+
 
