@@ -20,6 +20,9 @@ $(() => {
     }, 500);
   });
 
+  // Dragula.JS
+  dragula([document.querySelector('#drag-left'), document.querySelector('#drag-right')]);
+
   // DnD.JS
   dragNdrop({
     element: document.getElementById('box1'),
