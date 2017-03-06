@@ -1,1 +1,1 @@
-# Folio Fx
+![FolioFx](http://i.imgur.com/ecLfDAS.png)
