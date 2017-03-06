@@ -25,4 +25,4 @@ Effects currently featured on the site:
 
 And more to come!
 
-If I can do it, so can you!
+If I can do it (which is a pretty big statement), so can you!
