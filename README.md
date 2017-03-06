@@ -1,1 +1,2 @@
-![FolioFx](http://i.imgur.com/ecLfDAS.png)
+![FolioFx](http://i.imgur.com/NPUyCVY.png)
+
