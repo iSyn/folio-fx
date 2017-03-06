@@ -427,7 +427,7 @@ footer {
 
 .wow { visibility: hidden; }
 
-#new-effect {
+.new-effect {
   border: 5px dotted #ababab;
   background-color: white;
   color: #ababab;
@@ -440,7 +440,7 @@ footer {
   font-family: 'Open Sans';
 }
 
-#new-effect:hover {
+.new-effect:hover {
   border: none;
 }
 
@@ -522,16 +522,25 @@ footer {
   width: 20%;
 }
 
+#dragula {
+  overflow: hidden;
+}
+
 .drag-container-container {
+  position: relative;
   display: flex;
   flex-flow: row nowrap;
   height: 100%;
+  background-color: #d8d8d8;
+  border-radius: 10px;
 }
 
 .drag-container {
+  position: relative;
   width: 50%;
-  /*height: 100%;*/
-  background-color: green;
+  height: 100%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .drag-container div {
@@ -549,34 +558,9 @@ footer {
   border-radius: 5px;
   font-family: 'Roboto';
   font-size: 25px;
-}
-
-.gu-transit {
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 10px;
-  width: 80%;
-  border: 1px solid black;
-  margin-bottom: 10px;
-  /*cursor: -webkit-grab;*/
-  cursor: move;
-  text-align: center;
-  box-shadow: 0px 2px #222;
-  border-radius: 5px;
-  font-family: 'Roboto';
-  font-size: 25px;
+  background-color: #d8d8d8;
 }
 
 .drag-container div:first-child {
   margin-top: 10px;
 }
-
-#drag-left {
-  background-color: #d8d8d8;
-}
-
-#drag-right {
-  background-color: #d8d8d8;
-}
-
