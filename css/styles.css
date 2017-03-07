@@ -579,7 +579,7 @@ footer {
   margin-top: 10px;
 }
 
-@media (max-width: 1700px) {
+/*@media (max-width: 1700px) {
   .effect-cover h1 {
     font-size: 6vw;
   }
@@ -616,7 +616,7 @@ footer {
   .drag-container div {
     font-size: 1.8vw;
   }
-}
+}*/
 
 @media (max-width: 1200px) {
   .content-container {
