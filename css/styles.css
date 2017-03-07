@@ -589,5 +589,8 @@ footer {
   section {
     width: 70%;
   }
+  #new-effect-2 {
+    display: none;
+  }
 }
 
