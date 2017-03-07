@@ -366,7 +366,8 @@ section {
 .contact-container > h1 {
   padding: 20px;
   font-family: 'Roboto';
-  font-size: 4.3vw;
+  /*font-size: 4.25vw;*/
+  font-size: 4vw;
 }
 
 .name-email-container input {
@@ -576,6 +577,43 @@ footer {
 
 .drag-container div:first-child {
   margin-top: 10px;
+}
+
+@media (max-width: 1100px) {
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  section {
+    width: 70%;
+  }
+  .effect-cover h1 {
+    font-size: 8vw;
+  }
+  .effect-cover p {
+    font-size: 2vw;
+  }
+  #animate h1 {
+    font-size: 7.8vw;
+  }
+  #fa h1 {
+    font-size: 6vw;
+  }
+  .owl-single p {
+    font-size: 4vw;
+  }
+  .baffle {
+    font-size: 8vw;
+  }
+  #new-effect-2 {
+    display: none;
+  }
+  .box p {
+    font-size: 2.3vw;
+  }
 }
 
 @media (max-device-width: 700px) {
