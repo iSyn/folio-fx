@@ -6,10 +6,7 @@ $(window).on("load", (() => {
   setTimeout(() => {
     $('body').css('overflow', 'auto')
   }, 500)
-}));
 
-
-$(() => {
   console.log('scripts.js connected')
   $(window).scrollTop(0);
   new WOW().init();
@@ -223,6 +220,6 @@ $(() => {
     },
     "retina_detect": true
   })
+}))
 
 
-})
