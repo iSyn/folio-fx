@@ -1,4 +1,4 @@
-![FolioFx](http://i.imgur.com/NPUyCVY.png)
+![FolioFx](http://i.imgur.com/whuvvmJ.png)
 
 :fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire:
 
