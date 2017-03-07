@@ -267,7 +267,7 @@ section {
 
 .baffle {
   position: absolute;
-  font-size: 70px;
+  font-size: 5.5vw;
   font-family: 'Amiko';
   width: 100%;
   top: 50%;
@@ -309,6 +309,7 @@ section {
   transform: translateY(-50%);
   width: 100%;
   text-align: center;
+  font-size: 2vw;
 }
 
 #fa {
@@ -321,7 +322,7 @@ section {
   font-family: 'Museo Slab';
   width: 100%;
   text-align: center;
-  font-size: 50px;
+  font-size: 3.5vw;
   color: white;
   text-shadow: 4px 3px 0 #1d9d74, 9px 8px 0 rgba(0,0,0,0.15);
   top: 50%;
@@ -489,18 +490,17 @@ footer {
   width: 90%;
   text-align: center;
   transform: translate(-50%, -50%);
+  font-size: 1.3vw;
 }
 
 #box1 {
   height: 100px;
   width: 150px;
   background-color: #E6C229;
-  font-size: 20px;
 }
 
 #box2 {
   height: 80px;
-  font-size: 20px;
   background-color: #D11149;
 }
 
@@ -570,7 +570,7 @@ footer {
   box-shadow: 0px 4px #222;
   border-radius: 5px;
   font-family: 'Roboto';
-  font-size: 25px;
+  font-size: 2.2vw;
   background-color: #d8d8d8;
 }
 

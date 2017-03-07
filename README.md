@@ -24,5 +24,3 @@ Effects currently featured on the site:
  * [Dragula.js](https://bevacqua.github.io/dragula/)
 
 And more to come!
-
-If I can do it (which is a pretty big statement), so can you!
