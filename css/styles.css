@@ -587,6 +587,12 @@ footer {
   .drag-container div {
     font-size: 1.5vw;
   }
+  .effect-cover h1 {
+    font-size: 3.5vw;
+  }
+  .effect-cover p {
+    font-size: 1vw;
+  }
 }
 
 @media (max-width: 1200px) {
