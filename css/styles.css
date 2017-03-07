@@ -203,16 +203,26 @@ section {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
+  /*display: block;*/
   display: none;
   text-align: center;
-  padding: 20px;
   animation: fadeIn 0.3s;
   border-radius: 10px;
   z-index: 1;
 }
 
 .effect-cover h1 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  position: relative;
   font-size: 60px;
+}
+
+.effect-cover p {
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 @keyframes fadeIn {
