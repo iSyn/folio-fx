@@ -1,6 +1,6 @@
 ![FolioFx](http://i.imgur.com/whuvvmJ.png)
 
-:fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire:
+## 
 
 
 Are you a recent bootcamp grad, struggling to set yourself apart from the crowd? <br>
