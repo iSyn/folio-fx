@@ -602,13 +602,19 @@ footer {
     display: none;
   }
   .box p {
-    font-size: 1.5vw;
+    font-size: 1vw;
+  }
+  .drag-container div {
+    font-size: 1.8vw;
   }
 }
 
 @media (max-width: 1550px) {
   .box p {
-    font-size: 1.5vw;
+    font-size: 1vw;
+  }
+  .drag-container div {
+    font-size: 1.8vw;
   }
 }
 
