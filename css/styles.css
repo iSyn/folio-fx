@@ -579,44 +579,15 @@ footer {
   margin-top: 10px;
 }
 
-/*@media (max-width: 1700px) {
-  .effect-cover h1 {
-    font-size: 6vw;
-  }
-  .effect-cover p {
-    font-size: 1.6vw;
-  }
-  #animate h1 {
-    font-size: 7.8vw;
-  }
-  #fa h1 {
-    font-size: 6vw;
-  }
-  .owl-single p {
-    font-size: 4vw;
-  }
-  .baffle {
-    font-size: 8vw;
-  }
-  #new-effect-2 {
-    display: none;
-  }
+
+@media (min-width: 1700px) {
   .box p {
     font-size: 1vw;
   }
   .drag-container div {
-    font-size: 1.8vw;
+    font-size: 1.5vw;
   }
 }
-
-@media (max-width: 1550px) {
-  .box p {
-    font-size: 1vw;
-  }
-  .drag-container div {
-    font-size: 1.8vw;
-  }
-}*/
 
 @media (max-width: 1200px) {
   .content-container {
