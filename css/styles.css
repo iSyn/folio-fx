@@ -189,6 +189,11 @@ section {
   text-decoration: none;
   border-radius: 5px;
   font-family: 'Open Sans';
+  transition: all .3s ease-in-out;
+}
+
+.effect-button:hover {
+  transform: scale(1.1);
 }
 
 .effect:hover .effect-cover {

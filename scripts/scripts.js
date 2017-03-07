@@ -80,7 +80,6 @@ $(() => {
 
   $('.animateThis').addClass('flash')
 
-
   // OwlCarousel.JS
   $(".owl-carousel").owlCarousel({
     loop: true
