@@ -3,6 +3,11 @@
     src: url('./fonts/museo_slab.woff');
 }
 
+@font-face {
+  font-family: 'Menlo Regular';
+  src: url('./fonts/Menlo-Regular.ttf');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -186,13 +191,6 @@ section {
   font-family: 'Open Sans';
 }
 
-.effect-button:hover {
-  color: #222;
-  border-color: #222;
-  transition-duration: 0.3s;
-  background-color: #fff;
-}
-
 .effect:hover .effect-cover {
   display: block;
 }
@@ -273,7 +271,7 @@ section {
 }
 
 #baffle {
-  height: 200px;
+  height: 280px;
   background-color: #422FB1;
   color: white;
 }
@@ -309,7 +307,7 @@ section {
 }
 
 #fa {
-  height: 200px;
+  height: 220px;
 }
 
 #fa > h1 {
