@@ -178,7 +178,7 @@ section {
 }
 
 #typed {
-  height: 220px;
+  height: 250px;
 }
 
 .effect-button {
@@ -189,11 +189,11 @@ section {
   text-decoration: none;
   border-radius: 5px;
   font-family: 'Open Sans';
-  transition: all .3s ease-in-out;
+  transition: all .15s ease-in-out;
 }
 
 .effect-button:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .effect:hover .effect-cover {
@@ -218,11 +218,11 @@ section {
   padding-top: 20px;
   padding-bottom: 10px;
   position: relative;
-  font-size: 60px;
+  font-size: 4vw;
 }
 
 .effect-cover p {
-  font-size: 20px;
+  font-size: 1.5vw;
   padding-bottom: 20px;
   padding-left: 10px;
   padding-right: 10px;
@@ -335,7 +335,7 @@ section {
   position: absolute;
   width: 100%;
   transform: translateY(-50%);
-  font-size: 80px;
+  font-size: 5.5vw;
   /*color: #ff9d31;*/
   /*color: #5dfec3;*/
   /*color: #1a1e3c;*/
@@ -577,3 +577,17 @@ footer {
 .drag-container div:first-child {
   margin-top: 10px;
 }
+
+@media (max-device-width: 700px) {
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  section {
+    width: 70%;
+  }
+}
+
