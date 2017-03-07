@@ -580,7 +580,7 @@ footer {
 }
 
 
-@media (min-width: 1700px) {
+@media (min-width: 1600px) {
   .box p {
     font-size: 1vw;
   }
@@ -588,7 +588,7 @@ footer {
     font-size: 1.5vw;
   }
   .effect-cover h1 {
-    font-size: 3.5vw;
+    font-size: 3.2vw;
   }
   .effect-cover p {
     font-size: 1vw;
