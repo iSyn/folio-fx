@@ -419,11 +419,10 @@ footer {
   height: 100px;
   line-height: 100px;
   /*background-color: #dfabed;*/
-  background: linear-gradient(#dfabed, #bf62d8);
   font-family: 'Roboto';
   text-align: center;
   font-size: 15px;
-  color: white;
+  color: black;
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
