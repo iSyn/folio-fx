@@ -404,15 +404,17 @@ textarea {
 }
 
 form button {
-  height: 45px;
+  height: 70px;
+  line-height: 70px;
   font-size: 25px;
   border-radius: 5px;
   width: 60%;
   border: 2px solid black;
   cursor: pointer;
   font-family: 'Open Sans';
-  background-color: rgba(0,0,0,0);
-  color: black;
+  background-color: #E71D36;
+  /*background-color: rgba(0,0,0,0);*/
+  color: white;
 }
 
 footer {
