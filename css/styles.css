@@ -624,6 +624,33 @@ footer {
   margin-top: 10px;
 }
 
+#gradient-animator {
+  background: linear-gradient(138deg, #5bc0eb, #fde74c, #9bc53d, #e55934, #fa7921);
+  background-size: 1000% 1000%;
+
+  -webkit-animation: gradientAnimatorBg 8s ease infinite;
+  -moz-animation: gradientAnimatorBg 8s ease infinite;
+  animation: gradientAnimatorBg 8s ease infinite;
+}
+
+@-webkit-keyframes gradientAnimatorBg {
+    0%{background-position:19% 0%}
+    50%{background-position:82% 100%}
+    100%{background-position:19% 0%}
+}
+@-moz-keyframes gradientAnimatorBg {
+    0%{background-position:19% 0%}
+    50%{background-position:82% 100%}
+    100%{background-position:19% 0%}
+}
+@keyframes gradientAnimatorBg {
+    0%{background-position:19% 0%}
+    50%{background-position:82% 100%}
+    100%{background-position:19% 0%}
+}
+
+
+/* MEDIA QUERIES */
 
 @media (min-width: 1600px) {
   .box p {

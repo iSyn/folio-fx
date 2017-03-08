@@ -22,5 +22,6 @@ Effects currently featured on the site:
  * [Typed.js](http://www.mattboldt.com/demos/typed-js/)
  * [Coolors](https://coolors.co/browser/best/1)
  * [Dragula.js](https://bevacqua.github.io/dragula/)
+ * [Gradient Animator](https://www.gradient-animator.com/)
 
 And more to come!
