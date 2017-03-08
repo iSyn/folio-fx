@@ -20,35 +20,35 @@ $(window).on("load", (() => {
 
 
   // Scroll to top when nav text is clicked
-  $('.nav-text').click(() => {
-    $('html, body').animate({ scrollTop: 0 }, 'fast');
-  })
+  // $('.nav-text').click(() => {
+  //   $('html, body').animate({ scrollTop: 0 }, 'fast');
+  // })
 
   // Scroll to contact when new effect is clicked
-  $(".new-effect").click(() => {
+  $(".new-effect, .contact").click(() => {
     $('html, body').animate({
         scrollTop: $(".contact-wrapper").offset().top
     }, 500);
   });
 
   // Sticky NAV
-  let $document = $(document)
-  let $header = $('.header')
-  let headerPos = $header.position().top + $header.outerHeight(true) - 100
-  let $nav = $('nav')
+  // let $document = $(document)
+  // let $header = $('.header')
+  // let headerPos = $header.position().top + $header.outerHeight(true) - 100
+  // let $nav = $('nav')
 
-  $document.scroll(() => {
-    if ($document.scrollTop() > headerPos) {
-      console.log('show nav bar!')
-      $nav.css('display', 'block');
-      $nav.removeClass('animated slideOutUp')
-      $nav.addClass('animated slideInDown')
-    } else {
-      // $nav.css('display', 'none')
-      $nav.removeClass('animated slideInDown')
-      $nav.addClass('animated slideOutUp')
-    }
-  })
+  // $document.scroll(() => {
+  //   if ($document.scrollTop() > headerPos) {
+  //     console.log('show nav bar!')
+  //     $nav.css('display', 'block');
+  //     $nav.removeClass('animated slideOutUp')
+  //     $nav.addClass('animated slideInDown')
+  //   } else {
+  //     // $nav.css('display', 'none')
+  //     $nav.removeClass('animated slideInDown')
+  //     $nav.addClass('animated slideOutUp')
+  //   }
+  // })
 
 
 

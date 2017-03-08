@@ -113,24 +113,20 @@ body {
 
 nav {
   z-index: 999999999999999999999999999999999;
-  position: fixed;
   width: 100vw;
-  background-color: rgba(0, 0, 0, 0.3);
-  /*background-color: rgba(255, 255, 255, 0.7);*/
-  /*color: #f35626;*/
-  color: white;
-  /*box-shadow: 0 4px 50px 1px black;*/
-  /*border-bottom: 1px solid black;*/
-  padding: 2px 40px;
-  display: none;
-  border-radius: 0 0 5px 5px;
+  color: black;
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.contact {
+  cursor: pointer;
 }
 
 nav h1 {
   font-family: 'Ranga';
   font-size: 40px;
   display: inline-block;
-  cursor: pointer;
 }
 
 header {
@@ -168,7 +164,7 @@ header {
 
 .about {
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   font-family: 'Lato';
   font-size: 17px;
   line-height: 1.8;
