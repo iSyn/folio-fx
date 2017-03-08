@@ -22,11 +22,14 @@ $(window).on("load", (() => {
   // Sticky NAV
   let $document = $(document)
   let $header = $('.header')
-  let headerPos = $header.position().top + $header.outerHeight(true)
+  let headerPos = $header.position().top + $header.outerHeight(true) - 100
 
   $document.scroll(() => {
     if ($document.scrollTop() > headerPos) {
       console.log('show nav bar!')
+      $('nav').css('display', 'block');
+    } else {
+      $('nav').css('display', 'none')
     }
   })
 

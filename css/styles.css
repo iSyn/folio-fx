@@ -112,10 +112,13 @@ body {
 }
 
 nav {
+  z-index: 999999999999999999999999999999999;
   position: fixed;
   width: 100vw;
-  background-color: green;
-  padding: 10px;
+  background-color: yellow;
+  border-bottom: 1px solid black;
+  padding: 10px 40px;
+  display: none;
 }
 
 nav h1 {
