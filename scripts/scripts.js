@@ -23,15 +23,22 @@ $(window).on("load", (() => {
   let $document = $(document)
   let $header = $('.header')
   let headerPos = $header.position().top + $header.outerHeight(true) - 100
+  let $nav = $('nav')
 
   $document.scroll(() => {
     if ($document.scrollTop() > headerPos) {
       console.log('show nav bar!')
-      $('nav').css('display', 'block');
+      $nav.css('display', 'block');
+      $nav.removeClass('animated slideOutUp')
+      $nav.addClass('animated slideInDown')
     } else {
-      $('nav').css('display', 'none')
+      // $nav.css('display', 'none')
+      $nav.removeClass('animated slideInDown')
+      $nav.addClass('animated slideOutUp')
     }
   })
+
+
 
   // Dragula.JS
   dragula([document.querySelector('#drag-left'), document.querySelector('#drag-right')]);
