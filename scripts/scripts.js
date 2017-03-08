@@ -12,8 +12,13 @@ $(window).on("load", (() => {
   new WOW().init();
 
 
+  // Scroll to top when nav text is clicked
+  $('.nav-text').click(() => {
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
+  })
+
   // Scroll to contact when new effect is clicked
-  $(".new-effect").click(function() {
+  $(".new-effect").click(() => {
     $('html, body').animate({
         scrollTop: $(".contact-wrapper").offset().top
     }, 500);
