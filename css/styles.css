@@ -417,6 +417,18 @@ form button {
   color: white;
 }
 
+.fa-paper-plane-o {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  transition: all 0.3s;
+}
+
+.contact-button:hover .fa-paper-plane-o{
+  left: 7px;
+  bottom: 7px;
+}
+
 footer {
   height: 100px;
   line-height: 100px;
