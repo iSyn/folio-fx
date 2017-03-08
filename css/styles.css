@@ -349,7 +349,6 @@ section {
 
 .contact-wrapper {
   position: relative;
-  background: linear-gradient(#fff, #cd9dd9, #dfabed);
   height: 100vh;
 }
 
@@ -592,6 +591,9 @@ footer {
   }
   .effect-cover p {
     font-size: 1vw;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
