@@ -376,7 +376,7 @@ section {
   padding: 5px;
   border-radius: 5px;
   /*border: 3px solid #fff;*/
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid #838383;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -392,7 +392,7 @@ textarea {
   width: 60%;
   display: block;
   margin: 0 auto 30px auto;
-  border: 2px solid black;
+  border: 2px solid #838383;
   border-radius: 5px;
   font-family: 'Open Sans';
   line-height: 1.4;
@@ -409,12 +409,45 @@ form button {
   font-size: 25px;
   border-radius: 5px;
   width: 60%;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
+  border: none;
   cursor: pointer;
   font-family: 'Open Sans';
-  background-color: #E71D36;
+  /*background-color: #5BC0EB;*/
   /*background-color: rgba(0,0,0,0);*/
   color: white;
+  /*box-shadow: 0px 3px #222;*/
+}
+
+.contact-button {
+  /*background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);*/
+background: linear-gradient(141deg, #C33764, #1D2671);
+background-size: 400% 400%;
+
+-webkit-animation: AnimationName 8s ease infinite;
+-moz-animation: AnimationName 8s ease infinite;
+-o-animation: AnimationName 8s ease infinite;
+animation: AnimationName 8s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:4% 0%}
+    50%{background-position:97% 100%}
+    100%{background-position:4% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:4% 0%}
+    50%{background-position:97% 100%}
+    100%{background-position:4% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:4% 0%}
+    50%{background-position:97% 100%}
+    100%{background-position:4% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:4% 0%}
+    50%{background-position:97% 100%}
+    100%{background-position:4% 0%}
 }
 
 .fa-paper-plane-o {
