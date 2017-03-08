@@ -11,11 +11,24 @@ $(window).on("load", (() => {
   $(window).scrollTop(0);
   new WOW().init();
 
+
+  // Scroll to contact when new effect is clicked
   $(".new-effect").click(function() {
     $('html, body').animate({
         scrollTop: $(".contact-wrapper").offset().top
     }, 500);
   });
+
+  // Sticky NAV
+  let $document = $(document)
+  let $header = $('.header')
+  let headerPos = $header.position().top + $header.outerHeight(true)
+
+  $document.scroll(() => {
+    if ($document.scrollTop() > headerPos) {
+      console.log('show nav bar!')
+    }
+  })
 
   // Dragula.JS
   dragula([document.querySelector('#drag-left'), document.querySelector('#drag-right')]);

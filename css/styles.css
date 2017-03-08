@@ -111,6 +111,18 @@ body {
     to {left: 100%;}
 }
 
+nav {
+  position: fixed;
+  width: 100vw;
+  background-color: green;
+  padding: 10px;
+}
+
+nav h1 {
+  font-family: 'Ranga';
+  font-size: 50px;
+}
+
 header {
   text-align: center;
   padding: 20px 0;
