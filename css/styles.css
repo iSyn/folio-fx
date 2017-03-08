@@ -742,6 +742,7 @@ footer {
   }
 }
 
+/*IF ON MOBILE*/
 @media (max-device-width: 700px) {
   .content-container {
     display: flex;
@@ -753,8 +754,14 @@ footer {
   section {
     width: 70%;
   }
-  #new-effect-2 {
+  #new-effect-1 {
     display: none;
+  }
+  #new-effect-2 {
+    display: block;
+  }
+  .effect {
+    height: 400px !important;
   }
 }
 
