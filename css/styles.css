@@ -136,7 +136,7 @@ nav h1 {
 header {
   text-align: center;
   padding: 20px 0;
-  margin-bottom: -70px;
+  margin-bottom: -90px;
 }
 
 .header {
@@ -170,6 +170,13 @@ header {
   text-align: center;
   margin-bottom: 100px;
   font-family: 'Lato';
+  font-size: 17px;
+  line-height: 1.8;
+  height: 50px;
+}
+
+.hide-me {
+  display: none;
 }
 
 .content-container {

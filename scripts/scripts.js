@@ -11,6 +11,13 @@ $(window).on("load", (() => {
   $(window).scrollTop(0);
   new WOW().init();
 
+  $('.header').mouseover(() => {
+    $('.hide-me').css('display', 'block');
+  })
+  $('.header').mouseout(() => {
+    $('.hide-me').css('display', 'none');
+  })
+
 
   // Scroll to top when nav text is clicked
   $('.nav-text').click(() => {
