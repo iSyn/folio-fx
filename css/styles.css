@@ -783,5 +783,9 @@ footer {
     width: 80%;
     margin-bottom: 50px;
   }
+  #marquee3k {
+    height: auto !important;
+  }
+
 }
 
